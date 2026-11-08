@@ -1,4 +1,4 @@
-"""
+"""Baseline Autoencoder
 Usage: python hbta_baseline_autoencoder.py --data /path/to/data_100Hz.h5
 Requires: pip install numpy pandas h5py scikit-learn tensorflow matplotlib joblib
 """
