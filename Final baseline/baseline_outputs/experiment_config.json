@@ -1,5 +1,5 @@
 {
-  "model_status": "PROPOSED Dense baseline, NOT confirmed with teammate/supervisor",
+  "model_status": "baseline autoencoder",
   "architecture": [
     8500,
     128,
