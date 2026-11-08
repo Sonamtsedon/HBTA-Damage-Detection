@@ -1,4 +1,4 @@
-"""HBTA Dense Autoencoder baseline (proposed; confirm with supervisor/team).
+"""
 Usage: python hbta_baseline_autoencoder.py --data /path/to/data_100Hz.h5
 Requires: pip install numpy pandas h5py scikit-learn tensorflow matplotlib joblib
 """
@@ -45,7 +45,7 @@ def load_group(h5, name, sensors):
     return data
 
 def build_model(n_features):
-    # Proposed simple Dense baseline, NOT a confirmed group/supervisor architecture.
+   
     model = keras.Sequential([
         layers.Input(shape=(n_features,)),
         layers.Dense(128, activation='relu'),
