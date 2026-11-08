@@ -1,0 +1,31 @@
+{
+  "model_status": "PROPOSED Dense baseline, NOT confirmed with teammate/supervisor",
+  "architecture": [
+    8500,
+    128,
+    32,
+    128,
+    8500
+  ],
+  "seed": 42,
+  "healthy_group": "MVS_P1_UDS_SM_Y_01",
+  "reference_group": "MVS_P1_UDS_SM_Y_02",
+  "damage_groups": {
+    "DS1": "MVS_P1_DS1_SM_Y_01",
+    "DS2": "MVS_P1_DS2_SM_Y_01",
+    "DS3": "MVS_P1_DS3_SM_Y_01",
+    "DS4": "MVS_P1_DS4_SM_Y_01",
+    "DS5": "MVS_P1_DS5_SM_Y_01",
+    "DS6": "MVS_P1_DS6_SM_Y_01",
+    "DS7": "MVS_P1_DS7_SM_Y_01",
+    "DS8": "MVS_P1_DS8_SM_Y_01"
+  },
+  "sampling_hz": 100,
+  "window_size": 500,
+  "train_val_test": "70/15/15 chronological on UDS_01",
+  "scaler": "StandardScaler fitted on training only",
+  "epochs_max": 50,
+  "batch_size": 8,
+  "threshold_95pct_validation": 3.757422685623169,
+  "dataset_path": "/Users/sonamtshedon/HBTA Damage Detection/data_100Hz.h5"
+}
